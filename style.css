@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d11;
+}
+
+.navbar span {
+  font-size: 12px;
+  display: block;
+  color: #666;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  color: #d11;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+  background: #f8f9fa;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.hero-text .highlight {
+  color: #d11;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.btn {
+  background: #d11;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #a00;
+}
+
+.hero-img img {
+  max-width: 400px;
+}
+
+/* Welcome */
+.welcome {
+  display: flex;
+  align-items: center;
+  padding: 50px 10%;
+  gap: 40px;
+}
+
+.welcome-text h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.welcome-text p {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Products */
+.products {
+  text-align: center;
+  padding: 50px 10%;
+  background: #f8f9fa;
+}
+
+.products h2 {
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  flex: 1;
+}
+
+.card h3 {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card img {
+  max-width: 60px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 30px 10%;
+  font-size: 14px;
+}
+
+footer a {
+  color: #f44;
+  text-decoration: none;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #aaa;
+}
